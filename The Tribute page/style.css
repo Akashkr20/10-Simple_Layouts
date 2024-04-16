@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(221, 216, 216);
+    border: 8px solid rgb(105, 101, 101);
+    min-height: 100vh;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.image_con img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.top h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+.top p{
+    font-family:'Courier New', Courier, monospace;
+    text-align: end;
+}
+
+.about{
+    margin-top: 80px;
+}
+
+.head p{
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.para p{
+    margin-top: 20px;
+    line-height: 1.2 vh;
+    letter-spacing: 0.2vh;
+}
+
+.images{
+    margin: 10% 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;
+}
+
+h2{
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.achievments h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 600; 
+    margin-top: 50px;
+}
+
+.achievments p{
+    margin: 20px 0;
+    letter-spacing: 0.2vh;
+    line-height: 1.2 vh;
+}
+
+.achievments img{
+    width: 900px;
+}
+
+.biographies {
+    margin: 90px auto;
+}
+
+.biographies ul{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+footer {
+    margin: 50px 0;
+  }
+  footer p {
+    text-align: end;
+  }
