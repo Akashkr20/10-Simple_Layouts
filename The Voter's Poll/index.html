@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Voter's Poll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form_box">
+            <h1>VOTER'S OPINION <span class="small">(EVM)</span></h1>
+            <form action="">
+                <div class="form container">
+                    <div class="form_control">
+                        <label for="fname"> First Name </label>
+                        <input type="text" id="fname" name="fname" placeholder="Enter First Name..." />
+                    </div>
+                    <div class="form_control">
+                        <label for="lname"> Last Name </label>
+                        <input type="text" id="lname" name="lname" placeholder="Enter Last Name..." />
+                    </div>
+                    <div class="form_control">
+                        <label for="email"> Email </label>
+                        <input type="email" id="lname" name="email" placeholder="Enter email..." />
+                    </div>
+                    <div class="form_control">
+                        <label for="pop"> Political Parties </label>
+                        <select id="pop" name="pop">
+                          <option value="">You Votng For</option>
+                          <option value="BJP">Bhartiya Janta Party </option>
+                          <option value="CON">Indian National Congress</option>
+                          <option value="AAM">Aam AAdmi Party</option>
+                          <option value="CPI">Communist Party of India</option>
+                        </select>
+                      </div>
+                      <div class="textarea_control">
+                        <label for="address"> Your's Truly Opinion </label>
+                        <textarea
+                          id="address"
+                          name="address"
+                          row="50"
+                          cols="50"
+                          placeholder="explain why you are supporting the party you slected above..."
+                        ></textarea>
+                      </div>
+                      <div class="form_control">
+                        <label for="city"> City </label>
+                        <input id="city" name="city" placeholder="Enter City Name..." />
+                      </div>
+                      <div class="form_control">
+                        <label for="pincode"> Pincode </label>
+                        <input
+                          type="number"
+                          id="pincode"
+                          name="pincode"
+                          placeholder="Enter Pincode Name..."/>
+                      </div>    
+                      <div class="form_control">
+                        <label for="date"> Birthday </label>
+                        <input value="2022-01-10" type="date" id="date" name="date" />
+                      </div>
+                      <div class="form_control">
+                        <label for="upload"> Upload Your Voter Card </label>
+                        <input type="file" id="upload" name="upload" />
+                      </div>
+                </div>
+                <div class="button_container">
+                    <button type="submit">Apply Now</button>
+                  </div>
+            </form>
+        </div>
+        
+    </div>
+
+    <div class="manifesto">
+        <h2>Manifestos of Parties</h2>
+        <section class="party">
+            <h3>Bhartiye Janta Party<span><img src="./Images/Bjp_symbol.png" alt="BJP symbol"></span></h3>
+            <p>The BJP's manifesto for the 2024 elections is likely to emphasize economic development with a focus on infrastructure, manufacturing, and foreign investment. They may continue to promote their 'Make in India' initiative and aim to boost employment through various schemes. Healthcare is expected to be another priority, with plans to strengthen infrastructure and expand access to affordable services. In education, the party might focus on improving quality, promoting digital learning, and expanding vocational training. Agriculture is likely to see continued emphasis with goals to double farmers' income and support through infrastructure and reforms.</p>
+            <p>National security will remain a key concern, with a focus on border security, defense modernization, and counter-terrorism measures. Social welfare initiatives for the poor and marginalized communities, along with women's empowerment, are also anticipated. Environmentally, the BJP may promote renewable energy, sustainable development, and measures to combat pollution. Good governance, transparency, and anti-corruption measures will likely be emphasized, along with administrative reforms and digital governance. Lastly, there may be efforts to preserve India's cultural heritage and promote digital infrastructure through the Digital India initiative.</p>
+        </section>
+        <section class="party">
+            <h3>Indian National Congress<span><img src="./Images/Congress Logo.png" alt="CON symbol"></span></h3>
+            <p>The Congress party's manifesto for the 2024 elections is expected to focus on a range of issues, including economic revival with an emphasis on job creation and support for small businesses. They may prioritize strengthening social welfare schemes, aiming to provide a safety net for the vulnerable sections of society and enhancing healthcare infrastructure and services.</p>
+            <p>Education is likely to be another key area, with plans to improve access to quality education, promote research and innovation, and invest in skill development programs. Agriculture is expected to see attention with initiatives aimed at supporting farmers, ensuring fair prices for crops, and enhancing agricultural infrastructure.</p>
+            <p>The Congress party may also emphasize national unity and social harmony, with efforts to promote inclusivity and address issues of social justice. They might focus on strengthening democratic institutions, promoting transparency, and combating corruption.</p>
+        </section>
+        <footer>Thank You (vote wisely)</footer>
+    </div>
+    
+</body>
+</html>
